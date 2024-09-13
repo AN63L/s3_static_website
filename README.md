@@ -124,7 +124,7 @@ Route53 handles the DNS configuration and Cloudfront the CDN. Certificates are m
 
 3. You will need to create a DNS entry pointing to your cloudfront distribution in route 53 (use the helper if needed)
 
-4. Test you configuration via this tools: 
+4. Test you configuration via these tools: 
 - [securityheaders.com](https://securityheaders.com/)
 - [Mozilla observatory](https://observatory.mozilla.org/analyze/avumi.com)
 
