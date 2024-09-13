@@ -55,7 +55,7 @@ phases:
     commands:
       - echo PostBuild Phase
       - aws s3 sync ./dist s3://bucket.com
-      - aws cloudfront create-invalidation --distribution-id "XS:AFKEWPOIAF" --paths "/*"
+      - aws cloudfront create-invalidation --distribution-id "DISTRIBUTION_ID" --paths "/*"
 ```
 
 ## S3 Buckets
